@@ -13,10 +13,10 @@ http://www.bootstrapzen.com/item/135/simple-login-form-logo/
 */
 
 * {
-    -webkit-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-	outline: none;
+		box-sizing: border-box;
+		outline: none;
 }
 
     .form-control {
@@ -32,7 +32,7 @@ http://www.bootstrapzen.com/item/135/simple-login-form-logo/
 	}
 
 body {
-	background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;
+	background: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,26 +40,40 @@ body {
 }
 
 .login-form {
-	margin-top: 60px;
+	margin-top: 100px;
 }
 
+img {
+	background: #045FB4;
+	color: background: #045FB4;
+	margin-top: 50px;
+}
 form[role=login] {
-	color: #5d5d5d;-ColorLetrasG.BasistyConsultora-
-	background: #f2f2f2; -colorFondoDeLosDatos-
+	color: #FFFFFF;
+	background: white;
 	padding: 26px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-style: solid;
 }
 	form[role=login] img {
 		display: block;
 		margin: 0 auto;
 		margin-bottom: 35px;
 	}
-	form[role=login] input,
 	form[role=login] button {
+		border-style: solid;
 		font-size: 18px;
 		margin: 16px 0;
+		margin-left: 30px;
+	}
+	
+	form[role=login] input{
+		border-style: solid;
+		font-size: 18px;
+		margin: 16px 0;
+		margin-left: 20px;
 	}
 	form[role=login] > div {
 		text-align: center;
@@ -73,3 +87,7 @@ form[role=login] {
 	.form-links a {
 		color: #fff;
 	}
+ a {
+	margin-right: 5px;
+	font-style: italic;
+ }
