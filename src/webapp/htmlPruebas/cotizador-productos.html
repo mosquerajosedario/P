@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="/home/dmosquera/src/webappdario/src/main/webapp/lib/css/styles.css">
+		<title>Stock</title>
+	</head>
+	<body>
+		<br>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm"></div>
+				<div class="col-sm">
+					<hr>
+					<img class="grande" src="/home/dmosquera/src/webappdario/src/main/webapp/lib/img/cotizador.png" alt="Logo-empresa">
+				</div>
+				<div class="col-sm"></div>
+			</div>
+		</div>
+		<hr>
+		<div class="container mt-5" >
+			<hr>
+			<form>
+				<table border class="table-responsive">
+					<tr>
+						<th rowspan=2>Numero Parte</th>
+						<th rowspan=2 width="20%">Descripcion</th>
+						<th rowspan=2 width="32%">Stock</th>
+						<th rowspan=2 width="32%">Lista de Precios</th>
+						<th colspan=3 width="5%">Cotizacion</th>
+					</tr>
+					<tr>
+						<th>Cantidad</th>
+						<th>Descuento(%)</th>
+						<th>Total</th>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<select class="form-control">
+								<option>ListaStock</option>
+								<option>ListaStock</option>
+								<option>ListaStock</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control">
+								<option>ListaPrecios</option>
+								<option>ListaPrecios</option>
+								<option>ListaPrecios</option>
+							</select>
+						</td>
+						<td>
+							<input type="number" name="cantidad" min=0 max=# >
+						</td>
+						<td>
+							<input type="number" name="descuento" min=0 id="ancho"  required  />
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th colspan=7 rowspan></th>
+					</tr>
+					<tr>
+						<th colspan=5></th>
+						<th>Total Presupuesto</th>
+						<th style="color:green;">U$D 0000,00</th>
+					</tr>
+					<tr>
+						<th colspan=6></th>
+						<th> <input type="reset" value="Borrar información"> </th>
+					</tr>
+				</table>
+			</form>
+			<div class="container mt-5">
+				<div class="floatright">
+					<button type="button" class="btn btn-success">Generar</button></th>
+					<button type="button" class="btn btn-danger">Cancelar</button></th>
+				</div>
+			</div>
+			<img class="img-responsive reduce" src="http://bfaconsultora.com/wp-content/uploads/2018/01/BFA_logo.png" alt="Logo-empresa" width="50%">
+		</div>
+		<br>
+		<br>
+		<br>
+		<hr>
+	</body>
+</html>
